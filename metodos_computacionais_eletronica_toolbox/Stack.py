@@ -18,7 +18,7 @@ class Stack:
         return self.stack[-1]
 
     def show(self):
-        if self.len_stack == 0:
+        if self.len_stack != 0:
             for i in self.stack:
                 print(i, end=' ')
             print()
