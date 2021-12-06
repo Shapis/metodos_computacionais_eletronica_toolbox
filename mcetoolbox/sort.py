@@ -1,5 +1,5 @@
 class Sort:
-    def bubblesort(list):
+    def bubblesort(self, list):
         for iter_num in range(len(list)-1, 0, -1):
             for idx in range(iter_num):
                 if list[idx] > list[idx+1]:
