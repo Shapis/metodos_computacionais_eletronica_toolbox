@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mcetoolbox',
-    version='0.0.6',
+    version='1.0.0',
     author='Henrique Silva',
     author_email='hpsilva@protonmail.com',
     description='Package com estruturas de dados da materia metodos computacionais para eletronica',
