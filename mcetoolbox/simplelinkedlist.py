@@ -95,12 +95,22 @@ class SimpleLinkedList:
                     aux1.setNext(node)
         self.len += 1
 
-    def show(self):
+    def showAll(self):
         aux = self.head
         while aux is not None:
             print(aux.getData(), end=' ')
             aux = aux.getNext()
         print()
+
+    def showUpTo(self, index):
+        aux = self.head
+        for i in range(index):
+            print(aux.getData(), end=' ')
+            aux = aux.getNext()
+        print()
+
+    def showIndex(self, index):
+        print(self.getIndex(index).getData())
 
     def copy(self):
         aux = self.head
